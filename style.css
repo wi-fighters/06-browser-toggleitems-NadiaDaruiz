@@ -4,3 +4,99 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    /* background-color: rgb(16, 95, 185); */
+    color: black;
+    text-align: center;
+    padding-top: 1.5rem ;
+
+    width: 100%;
+    height: 10%;
+}
+
+div.toggle__box {
+    width: 90%;
+    height: 10%;
+    margin: 1rem auto;
+
+    background-color: lightblue;
+    border-radius: 0.6rem ;
+}   
+
+p, .btn {
+    color: blue;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: start;
+
+    padding: 1rem;
+
+}
+
+div.destination__container--list {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: flex-start;
+
+    
+}
+
+.destinations__buttons {
+    width: 90%;
+    margin-top: 2rem;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.btn {
+    width: 20rem;
+    height: 4rem;
+
+    color: blue;
+    background-color: lightblue;
+    border-radius: 0.6rem;
+    text-align: center;
+}
+
+.btn--hide {
+    display: none;
+}
+
+ul {
+    width: 90%;
+    margin-top: 1rem ;
+    border: 0.09rem solid gray;
+    border-radius: 5px;
+}
+
+li:last-of-type {
+    border-bottom: none;
+}
+
+
+li {
+    list-style: none;
+    padding: 1rem;
+    
+    border-bottom: 0.09rem solid gray;
+    font-size: 1.5rem; 
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: lightblue;
+
+}
+
+
+

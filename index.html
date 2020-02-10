@@ -10,18 +10,32 @@
 <body>
     <h1>My Favorite Destinations</h1>
 
+    <div class="toggle__box">
+        <p>Toggle the list of my favorite destinations</p>
+    </div>
+
     <div class="destination__container--list">
-        <ul class="destination__list">
+        <ul>
             <li class="destination--items">New York, USA</li>
             <li class="destination--items">Medellin, Colombia</li>
             <li class="destination--items">Sardegna, Italy</li>
             <li class="destination--items">Nice, France</li>
-            <li class="destination--items">Palma, Spain</li>
+            <li class="destination--items">San Sebastian, Spain</li>
             <li class="destination--items">Lisbon, Portugal</li>
         </ul>
+        <div class="destinations__buttons">
+             <!-- Hide button will shown with toggle on js -->
+            <div class="btn--hide">Show Destinations</div>
+            <div class="btn">Hide Destinations</div>
+        </div>
     </div>
-    <div class="button__destinations--show">Show Destinations</div>
-    <div class="button__destinations--hide">Hide Destinations</div>
+
+    <!-- This box will be created with dom manipulation
+
+        <div class="selection__box">
+            <p>You selected ${item x}</p>
+
+        </div> -->
 
     <noscript>This website use javascript, please enable it</noscript>
     <script src="script.js"></script>
