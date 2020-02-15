@@ -1,7 +1,5 @@
 (() => {
-
-    // I want to switch back and forward between two elements: btn 
-    // At the same time  the list will show or hide, updating the message on the btn. 
+    // Show and Hide destination list.
 
     const destinationList = document.querySelector('ul');
     const btn = document.querySelector('.btn')
@@ -13,20 +11,11 @@
         btn.textContent = destinationList.classList.contains('hide') ? 'Show Destinations' : 'Hide Destinations';
     }
 
-
-    // I want to create a box that show a selected item from the list. 
-    // For that, I must create a new element that updates every time the selected items change.
-    // I must remove the previously selected item.
-
-    // The event will happen in the li.
-
+    //Show selected destination and update the city everytime click
 
     const destinations = [...document.querySelectorAll('.destination__items')];
     const destinationBox = document.querySelector('.selection__box');
     destinationBox.style.display = 'none';
-
-
-
 
     function showDestination(e) {
 
